@@ -1,0 +1,356 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: #4b0202
+}
+
+@media screen and (max-width: 1920px) {
+    #head {
+        background-color: #a19898fb;
+    }
+
+    .barra {
+        align-self: center;
+        height: 96px;
+    }
+
+    .compras {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: #4b0202
+    }
+
+    .izq {
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .primerx {
+        color: #4b0202;
+        padding: 5px;
+    }
+
+    .mano {
+        color: #4b0202;
+    }
+
+    .search {
+        display: flex;
+        height: 35px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+    }
+
+    .fondoblanco {
+        width: 75%;
+        height: 30px;
+    }
+
+    .button-search {
+        height: 30px;
+    }
+
+    .cabeza {
+        margin-top: 20px;
+    }
+
+    .manito {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+
+    .bloque {
+        display: flex;
+        justify-content: center;
+    }
+
+    .burger-menu {
+        background-color: #61676e;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        width: 60px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+    .cuenta {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .fotohead {
+        width: 100%;
+    }
+
+    #mein {
+        background-color: #a19898fb;
+    }
+
+    #futer {
+        background-color: #a19898fb;
+        padding-top: 15px;
+    }
+
+    .seccion {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .what {
+        padding-top: 15px;
+        display: flex;
+    }
+
+    .articulo {
+        margin: 10px;
+        box-shadow: none;
+        background-color: white;
+    }
+
+
+    .abajo {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        padding: 15px;
+        border-top: 1px solid #ebebeb;
+    }
+
+    .autito {
+        color: #633000;
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #633000;
+        background-color: #FFF;
+        border-radius: 40%;
+        right: 20px;
+        top: -15px;
+        position: absolute;
+    }
+
+    .autito:hover {
+        transform: rotate(-90deg);
+        transition: 150ms;
+    }
+
+    .descrip {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .precio {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .descuento {
+        font-size: 15px;
+        color: #b60000;
+        line-height: 23px;
+        margin-left: 8px;
+        flex-grow: 0.7;
+        text-align: left;
+    }
+
+    .descripcion {
+        display: none;
+
+    }
+
+    .articulo:hover .descripcion {
+        display: block;
+    }
+
+    .descripcion {
+        display: none;
+    }
+
+    .futer {
+        text-align: center;
+        margin: 0px 10px;
+        width: 100%;
+    }
+
+    .icono {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .txt {
+        flex-wrap: nowrap;
+        font-size: 12px;
+        line-height: 12px;
+        margin: 5px;
+    }
+
+    .Ofertas {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+
+
+    .log {
+        max-width: 300px;
+        width: 33vw;
+    }
+
+    .Ofertas {
+        display: flex;
+        height: 45px;
+        justify-content: space-between;
+    }
+
+    .Ofertas a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 0;
+        font-size: 15px;
+
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+
+    .articulo {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20vw;
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (min-width: 360px) {
+    .uno {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .log {
+        width: 250px;
+    }
+
+    .descripcion {
+        display: block;
+        font-size: 16px;
+        flex-grow: 6.5;
+        margin-left: 10px;
+    }
+
+    .articulo:hover .descripcion {
+        display: block;
+    }
+
+    .descripcion {
+        display: none;
+    }
+
+    .search {
+        width: 80%;
+    }
+
+    .Ofertas ul {
+        display: flex;
+    }
+
+    .Ofertas li {
+        display: flex;
+        margin: 0px 8px;
+    }
+
+
+    .articulo {
+        box-shadow: 10px 10px 10px rgb(100, 100, 100);
+        max-width: 40%;
+    }
+
+
+    .seccion {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .imagen {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .futer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+
+/* ZZZZZZZZZZZZZZZZZZZZ */
+.register {
+    display: flex;
+    justify-content: flex-start;
+    height: 80vh;
+    padding-top: 17px;
+    background-color: #a19898fb;
+    padding-left: 25px;
+}
+
+.nombres {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px;
+    width: 30vh;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+
+}
+
+.lastclass {
+    width: 100%;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    padding: 15px 15px;
+    margin-top: 5px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 3px;
+    background-color: #4b0202;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.aloja {
+    display: inline;
+}
